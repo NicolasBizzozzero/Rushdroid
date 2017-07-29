@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voir les achievements"
+        android:id="@+id/button12"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:onClick="onClickVoirAchievements" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Debloquer un achievement"
+        android:id="@+id/bouton_achievement"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClickDebloqueAchivement" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="se connecter"
+            android:id="@+id/button14"
+            android:layout_marginRight="30dp"
+            android:onClick="onClickSeConnecter" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="se deconnecter"
+            android:id="@+id/button15"
+            android:onClick="onClickSeDeconnecter" />
+    </LinearLayout>
+
+    <!-- sign-in button -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Out"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

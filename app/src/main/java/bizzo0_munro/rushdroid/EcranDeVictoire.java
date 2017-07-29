@@ -6,7 +6,6 @@ import android.media.AudioManager;
 import android.media.SoundPool;
 import android.os.Bundle;
 import android.os.Vibrator;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -240,27 +239,8 @@ public class EcranDeVictoire extends MonAppCompatActivity {
             Integer nombreDeNiveauxTerminesDuMonde = Integer.parseInt(attributNiveauxTermines.getNodeValue());
             attributNiveauxTermines.setTextContent(String.format("%d", nombreDeNiveauxTerminesDuMonde + 1));
             attributPourcentageNiveauxTermines.setTextContent("" + (Float.parseFloat(attributPourcentageNiveauxTermines.getNodeValue()) + 12.5));
-            if ((nombreDeNiveauxTerminesDuMonde+1) == 8) {
+            if ((nombreDeNiveauxTerminesDuMonde+1) == 8)
                 attributEstEntierementTermine.setTextContent("true");
-                Log.d("NICOLASCOUCOUTUDEBUG", "Le monde est entierrement terminé, on debloque un succes");
-                switch(numeroDuMonde){
-                    case 1:
-                        debloqueAchievement(getString(R.string.achievement_world_1_finished));
-                        break;
-                    case 3:
-                        debloqueAchievement(getString(R.string.achievement_world_3_finished));
-                        break;
-                    case 5:
-                        debloqueAchievement(getString(R.string.achievement_world_5_finished));
-                        break;
-                    case 7:
-                        debloqueAchievement(getString(R.string.achievement_world_7_finished));
-                        break;
-                    case 8:
-                        debloqueAchievement(getString(R.string.achievement_game_finished));
-                        break;
-                }
-            }
             attributTotalRecordsTemps.setTextContent(String.format("%d", Integer.parseInt(attributTotalRecordsTemps.getNodeValue()) + tempsEcoule));
             attributTotalRecordsCoups.setTextContent(String.format("%d", Integer.parseInt(attributTotalRecordsCoups.getNodeValue()) + nombreDeCoups));
         } else{
@@ -327,10 +307,7 @@ public class EcranDeVictoire extends MonAppCompatActivity {
 
         // On modifie les attributs du noeud de l'element du nombre de coups
         attributValeurNombreDeCoups.setTextContent(String.format("%d", Integer.parseInt(attributValeurNombreDeCoups.getNodeValue()) + nombreDeCoups));
-        if((Integer.parseInt(attributValeurNombreDeCoups.getNodeValue()) + nombreDeCoups) > 1000) {
-            Log.d("NICOLASCOUCOUTUDEBUG", "on debloque l'achievement des 1000 coups");
-            debloqueAchievement(getString(R.string.achievement_1000_strokes));
-        }
+
         // On recupere les attributs du noeud de l'element du temps passé à jouer
         NamedNodeMap listeAttributsDuNoeudElementTempsPasseAJouer = noeudTempsPasseAJouer.getAttributes();
         Node attributValeurTempsPasseAJouer = listeAttributsDuNoeudElementTempsPasseAJouer.getNamedItem("valeur");

@@ -8,7 +8,6 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.games.Games;
 import com.google.android.gms.plus.Plus;
 import com.google.example.games.basegameutils.BaseGameUtils;
 
@@ -38,42 +37,27 @@ public class MenuPrincipal extends MonAppCompatActivity {
     }
 
     public void onClickGoToMeilleursScores(View v) {
-        /*int duration = Toast.LENGTH_LONG;
+        int duration = Toast.LENGTH_LONG;
         String texte = getString(R.string.fonctionindisponible);
 
         Toast toast = Toast.makeText(app, texte, duration);
-        toast.show();*/
+        toast.show();
 
         /*Intent intent = new Intent(this, MeilleursScores.class);
         startActivity(intent);
         finish();*/
-        if (isConnected())
-            startActivityForResult(Games.Leaderboards.getAllLeaderboardsIntent(mGoogleApiClient), REQUEST_LEADERBOARD);
-        else {
-            String texte = getString(R.string.connectezvous);
-            Toast toast = Toast.makeText(app, texte, Toast.LENGTH_LONG);
-            toast.show();
-        }
     }
 
     public void onClickGoToSucces(View v) {
-        /*int duration = Toast.LENGTH_LONG;
+        int duration = Toast.LENGTH_LONG;
         String texte = getString(R.string.fonctionindisponible);
 
         Toast toast = Toast.makeText(app, texte, duration);
-        toast.show();*/
+        toast.show();
 
         /*Intent intent = new Intent(this, Succes.class);
         startActivity(intent);
         finish();*/
-        if (isConnected())
-            startActivityForResult(Games.Achievements.getAchievementsIntent(mGoogleApiClient), REQUEST_ACHIEVEMENTS);
-        else {
-            String texte = getString(R.string.connectezvous);
-            Toast toast = Toast.makeText(app, texte, Toast.LENGTH_LONG);
-            toast.show();
-        }
-
     }
 
     public void onClickExit(View v){

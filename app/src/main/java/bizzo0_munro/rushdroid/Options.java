@@ -171,11 +171,11 @@ public class Options extends MonAppCompatActivity {
         finish();
     }
 
-    /*public void onClickGoToSolveur(View v){
+    public void onClickGoToSolveur(View v){
         Intent intent = new Intent(this, SolveurDePuzzles.class);
         startActivity(intent);
         finish();
-    }*/
+    }
 
     private void reinitialiserLeFichierXML(){
         try {

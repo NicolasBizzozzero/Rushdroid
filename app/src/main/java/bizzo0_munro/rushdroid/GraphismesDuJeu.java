@@ -322,28 +322,28 @@ public class GraphismesDuJeu extends SurfaceView implements SurfaceHolder.Callba
                 couleurPiecePrincipale = 0xFF04BD36;
                 break;
             case "2":
-                // Couleur cyan
-                couleurPiecePrincipale = 0xFF00FFE5;
+                // Couleur jaune
+                couleurPiecePrincipale = 0xFFDAE107;
                 break;
             case "3":
                 // Couleur bleu
                 couleurPiecePrincipale = 0xFF0931E4;
                 break;
             case "4":
-                // Couleur orange
-                couleurPiecePrincipale = 0xFFFF6A00;
+                // Couleur rouge
+                couleurPiecePrincipale = 0xFFF0B3B3;
                 break;
             case "5":
-                // Couleur jaune
-                couleurPiecePrincipale = 0xFFDAE107;
+                // Couleur cyan
+                couleurPiecePrincipale = 0xFF00FFE5;
                 break;
             case "6":
                 // Couleur magenta
                 couleurPiecePrincipale = 0xFFEA00FF;
                 break;
             case "7":
-                // Couleur rouge
-                couleurPiecePrincipale = 0xFFF0B3B3;
+                // Couleur orange
+                couleurPiecePrincipale = 0xFFFF6A00;
                 break;
             case "8":
                 // Couleur citron

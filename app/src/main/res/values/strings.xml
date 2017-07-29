@@ -151,7 +151,4 @@
     <string name="statistiquesNomMonde6">World 6</string>
     <string name="statistiquesNomMonde7">World 7</string>
     <string name="statistiquesNomMonde8">World 8</string>
-    <string name="signin_other_error" translatable="false">There was an issue with sign-in, please try again later.</string>
-    <string name="signin_failure" translatable="false">Unable to sign in.</string>
-    <string name="connectezvous" translatable="false">Connect to the Google Play Service to use this functionality.</string>
 </resources>

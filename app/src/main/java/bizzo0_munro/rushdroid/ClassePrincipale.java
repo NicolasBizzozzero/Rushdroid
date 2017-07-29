@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.util.Xml;
 
 import org.xmlpull.v1.XmlSerializer;
@@ -50,9 +49,6 @@ public class ClassePrincipale extends Application {
     private MediaPlayer mediaPlayer;
     private boolean leSonDeVictoireAEteJoue;
     private boolean laVibrationDeVictoireAEteJouee;
-
-    // Variables utilisées avec l'API Google Play
-    public static boolean laConnectionAEchoue = false;
 
     @Override
     public void onCreate() {
@@ -114,8 +110,6 @@ public class ClassePrincipale extends Application {
                statistiques. */
             if ((fileInputStream.available()) == 0) {
                 creationDuFichierDeStatistiques(fileOutputStream);
-            } else {
-                suppressionDesDonneesPourMiseAJour2point0();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -222,12 +216,6 @@ public class ClassePrincipale extends Application {
         while (heures >= 24){
             heures -= 24;
             jours += 1;
-        }
-
-        // On débloque un achievement si le joueur dépasse 1h de jeu
-        if (heures >= 1) {
-            Log.d("NICOLASCOUCOUTUDEBUG", "on debloque l'achievement des 1 heure de jeu");
-            ((MonAppCompatActivity)getBaseContext()).debloqueAchievement(getString(R.string.achievement_you_played_1_hour));
         }
 
         // On reformate la String correctement puis on la retourne
@@ -405,20 +393,4 @@ public class ClassePrincipale extends Application {
     public void setUneFenetreDeMessagePourResetEstAffichee(boolean uneFenetreDeMessagePourResetEstAffichee) {
         this.uneFenetreDeMessagePourResetEstAffichee = uneFenetreDeMessagePourResetEstAffichee;
     }
-
-    private void suppressionDesDonneesPourMiseAJour2point0(){
-        try {
-            deleteFile("statistics.xml");
-            FileOutputStream fileOutputStream = this.getBaseContext().openFileOutput("statistics.xml", Context.MODE_APPEND);
-            this.creationDuFichierDeStatistiques(fileOutputStream);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    /* TODO : translate signin_other_error and signin_failure
-     *
-     *
-     *
-     */
 }
