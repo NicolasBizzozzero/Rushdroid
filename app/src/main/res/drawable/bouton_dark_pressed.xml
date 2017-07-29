@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="2dp"/>
+    <gradient android:startColor="@color/noirplusclair" android:endColor="@color/noirplusclair"/>
+
+    <stroke android:width="1px" android:color="@color/sirg"/>
+
+    <path
+        android:fillColor="@color/sirg"
+        android:pathData="M9,16.17L4.83,12l-1.42,1.41L9,19 21,7l-1.41,-1.41z"/>
+</shape>

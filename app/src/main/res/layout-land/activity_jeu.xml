@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:orientation="horizontal"
+              android:weightSum="1"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:id="@+id/layoutHUD"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_gris_sbb"
+            android:id="@+id/llsbb1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/texteRecord"
+
+                android:fontFamily="Cambria Math"
+                android:textSize="18sp"
+                android:id="@+id/textView32"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/transparent" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/texteTemps"
+
+                    android:fontFamily="Cambria Math"
+                    android:textSize="18sp"
+                    android:id="@+id/textView33"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/transparent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:fontFamily="Cambria Math"
+                    android:textSize="18sp"
+                    android:id="@+id/texteRecordTemps"
+                    android:background="@color/transparent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/texteCoups"
+
+                    android:fontFamily="Cambria Math"
+                    android:textSize="18sp"
+                    android:id="@+id/textView35"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/transparent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:fontFamily="Cambria Math"
+                    android:textSize="18sp"
+                    android:id="@+id/texteRecordCoups"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/transparent" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_gris_ab"
+            android:id="@+id/llab1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/texteScoreActuel"
+
+                android:fontFamily="Cambria Math"
+                android:textSize="18sp"
+                android:id="@+id/textView37"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/transparent" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/texteTemps"
+
+                    android:fontFamily="Cambria Math"
+                    android:textSize="18sp"
+                    android:id="@+id/textView38"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/transparent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:fontFamily="Cambria Math"
+                    android:textSize="18sp"
+                    android:id="@+id/texteTempsEcoule"
+                    android:background="@color/transparent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/texteCoups"
+
+                    android:fontFamily="Cambria Math"
+                    android:textSize="18sp"
+                    android:id="@+id/textView40"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/transparent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:fontFamily="Cambria Math"
+                    android:textSize="18sp"
+                    android:id="@+id/texteNombreDeCoupsEffectues"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/transparent" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom|center_horizontal"
+            android:layout_gravity="bottom|center_horizontal"
+            >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom|center_horizontal"
+                android:background="@drawable/background_gris_sbb"
+                android:elevation="3dp"
+                android:layout_marginTop="25dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/llsbb2">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/texteMonde"
+
+                        android:fontFamily="Cambria Math"
+                        android:textSize="22sp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/transparent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/texteNumeroMondeCourant"
+
+                        android:fontFamily="Cambria Math"
+                        android:textSize="22sp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/transparent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/texteJeuNiveau"
+                        android:id="@+id/textView23"
+
+                        android:fontFamily="Cambria Math"
+                        android:textSize="22sp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/transparent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/texteNumeroNiveauCourant"
+
+                        android:fontFamily="Cambria Math"
+                        android:textSize="22sp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/transparent" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:baselineAligned="false"
+        android:layout_marginLeft="5dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:id="@+id/imageButton4"
+                android:layout_gravity="center_vertical"
+                android:onClick="onClickRestart"
+                android:contentDescription="@string/boutonrestart"
+                android:src="@drawable/icone_restart_light" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:id="@+id/imageButton6"
+                android:layout_gravity="center_vertical"
+                android:onClick="onClickPause"
+                android:contentDescription="@string/boutoncoupprecedent"
+                android:src="@drawable/icone_pause_light" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:id="@+id/imageButton3"
+                android:layout_gravity="center_vertical"
+                android:onClick="onClickCoupPrecedent"
+                android:contentDescription="@string/boutoncoupprecedent"
+                android:src="@drawable/icone_coupprecedent_light" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:baselineAligned="false">
+
+        <bizzo0_munro.rushdroid.GraphismesDuJeu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/grilleDuJeu"
+            android:background="@color/transparent"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:padding="1sp"
+            android:layout_gravity="center_horizontal"/>
+    </FrameLayout>
+
+</LinearLayout>

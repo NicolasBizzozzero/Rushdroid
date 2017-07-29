@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rushpuzzles SYSTEM "rushpuzzles.dtd">
+<rushpuzzles>
+  <puzzle name="pb0" monde="0">
+    <piece id="0" len="2" dir="H" col="0" lig="2"/>
+  </puzzle>
+  <puzzle name="pb1" monde="1">
+    <piece id="0" len="2" dir="H" col="1" lig="2"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="3" dir="V" col="0" lig="1"/>
+    <piece id="3" len="2" dir="V" col="0" lig="4"/>
+    <piece id="4" len="3" dir="V" col="3" lig="1"/>
+    <piece id="5" len="3" dir="H" col="2" lig="5"/>
+    <piece id="6" len="2" dir="H" col="4" lig="4"/>
+    <piece id="7" len="3" dir="V" col="5" lig="0"/>
+  </puzzle>
+  <puzzle name="pb2" monde="1">
+    <!-- Fait par Amina Djelloul -->
+    <piece id="0" len="2" dir="H" col="1" lig="2"/>
+    <piece id="1" len="3" dir="V" col="0" lig="1"/>
+    <piece id="2" len="2" dir="V" col="0" lig="4"/>
+    <piece id="3" len="3" dir="V" col="3" lig="0"/>
+    <piece id="4" len="3" dir="H" col="3" lig="5"/>
+    <piece id="5" len="2" dir="H" col="4" lig="0"/>
+    <piece id="6" len="3" dir="V" col="5" lig="2"/>
+  </puzzle>
+  <puzzle name="pb3" monde="1">
+    <piece id="0" len="2" dir="H" col="1" lig="2"/>
+    <piece id="1" len="2" dir="H" col="1" lig="3"/>
+    <piece id="2" len="2" dir="V" col="1" lig="4"/>
+    <piece id="3" len="2" dir="H" col="2" lig="5"/>
+    <piece id="4" len="3" dir="V" col="3" lig="2"/>
+    <piece id="5" len="3" dir="V" col="5" lig="3"/>
+  </puzzle>
+  <puzzle name="pb4" monde="1">
+    <piece id="0" len="2" dir="H" col="1" lig="2"/>
+    <piece id="1" len="3" dir="V" col="0" lig="0"/>
+    <piece id="2" len="2" dir="V" col="2" lig="3"/>
+    <piece id="3" len="3" dir="H" col="2" lig="5"/>
+    <piece id="4" len="3" dir="V" col="3" lig="0"/>
+    <piece id="5" len="3" dir="H" col="3" lig="3"/>
+    <piece id="6" len="2" dir="V" col="5" lig="4"/>
+  </puzzle>
+  <puzzle name="pb5" monde="1">
+    <piece id="0" len="2" dir="H" col="1" lig="2"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="3" dir="V" col="0" lig="1"/>
+    <piece id="3" len="2" dir="V" col="0" lig="4"/>
+    <piece id="4" len="3" dir="H" col="1" lig="3"/>
+    <piece id="5" len="3" dir="V" col="3" lig="0"/>
+    <piece id="6" len="3" dir="V" col="4" lig="1"/>
+    <piece id="7" len="2" dir="H" col="4" lig="4"/>
+    <piece id="8" len="2" dir="H" col="4" lig="5"/>
+    <piece id="9" len="2" dir="V" col="5" lig="0"/>
+    <piece id="10" len="2" dir="V" col="5" lig="2"/>
+  </puzzle>
+  <puzzle name="pb6" monde="1">
+    <piece id="0" len="2" dir="H" col="1" lig="2"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="1"/>
+    <piece id="3" len="2" dir="H" col="0" lig="3"/>
+    <piece id="4" len="2" dir="V" col="0" lig="4"/>
+    <piece id="5" len="2" dir="V" col="2" lig="3"/>
+    <piece id="6" len="2" dir="V" col="3" lig="0"/>
+    <piece id="7" len="3" dir="V" col="3" lig="2"/>
+    <piece id="8" len="3" dir="H" col="3" lig="5"/>
+    <piece id="9" len="3" dir="V" col="4" lig="1"/>
+    <piece id="10" len="3" dir="V" col="5" lig="1"/>
+  </puzzle>
+  <puzzle name="pb7" monde="1">
+    <piece id="0" len="2" dir="H" col="1" lig="2"/>
+    <piece id="1" len="2" dir="V" col="1" lig="0"/>
+    <piece id="2" len="2" dir="H" col="2" lig="0"/>
+    <piece id="3" len="2" dir="H" col="2" lig="3"/>
+    <piece id="4" len="2" dir="V" col="3" lig="1"/>
+    <piece id="5" len="2" dir="V" col="3" lig="4"/>
+    <piece id="6" len="2" dir="V" col="4" lig="0"/>
+    <piece id="7" len="2" dir="V" col="5" lig="0"/>
+    <piece id="8" len="2" dir="V" col="5" lig="2"/>
+  </puzzle>
+  <puzzle name="pb8" monde="1">
+    <piece id="0" len="2" dir="H" col="0" lig="2"/>
+    <piece id="1" len="2" dir="H" col="0" lig="3"/>
+    <piece id="2" len="2" dir="H" col="0" lig="4"/>
+    <piece id="3" len="2" dir="H" col="0" lig="5"/>
+    <piece id="4" len="2" dir="H" col="2" lig="1"/>
+    <piece id="5" len="2" dir="V" col="2" lig="2"/>
+    <piece id="6" len="2" dir="V" col="2" lig="4"/>
+    <piece id="7" len="2" dir="H" col="3" lig="0"/>
+    <piece id="8" len="2" dir="V" col="3" lig="2"/>
+    <piece id="9" len="3" dir="H" col="3" lig="4"/>
+    <piece id="10" len="3" dir="H" col="3" lig="5"/>
+    <piece id="11" len="2" dir="V" col="4" lig="1"/>
+    <piece id="12" len="2" dir="H" col="4" lig="3"/>
+    <piece id="13" len="3" dir="V" col="5" lig="0"/>
+  </puzzle>
+  <puzzle name="pb9" monde="2">
+    <piece id="0" len="2" dir="H" col="0" lig="2"/>
+    <piece id="1" len="3" dir="V" col="0" lig="3"/>
+    <piece id="2" len="2" dir="V" col="1" lig="0"/>
+    <piece id="3" len="3" dir="H" col="1" lig="3"/>
+    <piece id="4" len="2" dir="H" col="2" lig="0"/>
+    <piece id="5" len="2" dir="V" col="2" lig="4"/>
+    <piece id="6" len="2" dir="V" col="3" lig="1"/>
+    <piece id="7" len="2" dir="H" col="4" lig="0"/>
+    <piece id="8" len="2" dir="H" col="4" lig="1"/>
+    <piece id="9" len="3" dir="V" col="4" lig="2"/>
+    <piece id="10" len="2" dir="V" col="5" lig="2"/>
+    <piece id="11" len="2" dir="V" col="5" lig="4"/>
+  </puzzle>
+  <puzzle name="pb10" monde="2">
+    <piece id="0" len="2" dir="H" col="0" lig="2"/>
+    <piece id="1" len="2" dir="V" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="1" lig="1"/>
+    <piece id="3" len="2" dir="V" col="2" lig="2"/>
+    <piece id="4" len="2" dir="V" col="2" lig="4"/>
+    <piece id="5" len="3" dir="H" col="3" lig="0"/>
+    <piece id="6" len="2" dir="V" col="3" lig="1"/>
+    <piece id="7" len="2" dir="H" col="3" lig="4"/>
+    <piece id="8" len="3" dir="H" col="3" lig="5"/>
+    <piece id="9" len="3" dir="V" col="5" lig="2"/>
+  </puzzle>
+  <puzzle name="pb11" monde="2">
+    <piece id="0" len="2" dir="H" col="2" lig="2"/>
+    <piece id="1" len="3" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="V" col="0" lig="1"/>
+    <piece id="3" len="2" dir="H" col="0" lig="3"/>
+    <piece id="4" len="2" dir="H" col="1" lig="1"/>
+    <piece id="5" len="2" dir="V" col="1" lig="4"/>
+    <piece id="6" len="2" dir="V" col="2" lig="3"/>
+    <piece id="7" len="2" dir="H" col="2" lig="5"/>
+    <piece id="8" len="2" dir="V" col="3" lig="0"/>
+    <piece id="9" len="3" dir="V" col="4" lig="0"/>
+    <piece id="10" len="2" dir="H" col="4" lig="4"/>
+    <piece id="11" len="2" dir="H" col="4" lig="5"/>
+    <piece id="12" len="3" dir="V" col="5" lig="0"/>
+  </puzzle>
+  <puzzle name="pb12" monde="2">
+    <piece id="0" len="2" dir="H" col="1" lig="2"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="V" col="0" lig="1"/>
+    <piece id="3" len="2" dir="V" col="0" lig="3"/>
+    <piece id="4" len="2" dir="H" col="0" lig="5"/>
+    <piece id="5" len="3" dir="H" col="1" lig="1"/>
+    <piece id="6" len="2" dir="V" col="1" lig="3"/>
+    <piece id="7" len="2" dir="H" col="2" lig="0"/>
+    <piece id="8" len="2" dir="V" col="3" lig="2"/>
+    <piece id="9" len="3" dir="H" col="3" lig="4"/>
+    <piece id="10" len="2" dir="V" col="4" lig="0"/>
+    <piece id="11" len="2" dir="H" col="4" lig="3"/>
+    <piece id="12" len="3" dir="V" col="5" lig="0"/>
+  </puzzle>
+  <puzzle name="pb13" monde="2">
+    <!-- Fait par Amina Djelloul -->
+    <piece id="0" len="2" dir="H" col="0" lig="2"/>
+    <piece id="1" len="3" dir="V" col="0" lig="3"/>
+    <piece id="2" len="3" dir="H" col="2" lig="5"/>
+    <piece id="3" len="3" dir="H" col="3" lig="0"/>
+    <piece id="4" len="3" dir="V" col="3" lig="2"/>
+    <piece id="5" len="2" dir="V" col="5" lig="2"/>
+    <piece id="6" len="2" dir="V" col="5" lig="4"/>
+  </puzzle>
+  <puzzle name="pb14" monde="2">
+    <piece id="0" len="2" dir="H" col="0" lig="2"/>
+    <piece id="1" len="2" dir="V" col="0" lig="0"/>
+    <piece id="2" len="3" dir="H" col="0" lig="3"/>
+    <piece id="3" len="2" dir="H" col="0" lig="5"/>
+    <piece id="4" len="2" dir="V" col="2" lig="4"/>
+    <piece id="5" len="3" dir="H" col="3" lig="0"/>
+    <piece id="6" len="2" dir="V" col="3" lig="1"/>
+    <piece id="7" len="2" dir="H" col="3" lig="5"/>
+    <piece id="8" len="2" dir="V" col="4" lig="2"/>
+    <piece id="9" len="2" dir="H" col="4" lig="4"/>
+    <piece id="10" len="3" dir="V" col="5" lig="1"/>
+  </puzzle>
+  <puzzle name="pb15" monde="2">
+    <!-- Fait par Laureline Couté -->
+    <piece id="0" len="2" dir="H" col="1" lig="2"/>
+    <piece id="1" len="2" dir="V" col="0" lig="3"/>
+    <piece id="2" len="2" dir="V" col="1" lig="0"/>
+    <piece id="3" len="2" dir="V" col="2" lig="4"/>
+    <piece id="4" len="3" dir="V" col="3" lig="0"/>
+    <piece id="5" len="3" dir="H" col="3" lig="4"/>
+    <piece id="6" len="2" dir="V" col="4" lig="2"/>
+    <piece id="7" len="2" dir="V" col="5" lig="1"/>
+  </puzzle>
+  <puzzle name="pb16" monde="2">
+    <!-- Fait par Meryna Rathisilas -->
+    <piece id="0" len="3" dir="H" col="0" lig="2"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="V" col="0" lig="3"/>
+    <piece id="3" len="2" dir="V" col="1" lig="4"/>
+    <piece id="4" len="2" dir="V" col="2" lig="0"/>
+    <piece id="5" len="3" dir="H" col="2" lig="5"/>
+    <piece id="6" len="3" dir="V" col="3" lig="2"/>
+    <piece id="7" len="2" dir="V" col="4" lig="1"/>
+    <piece id="8" len="2" dir="V" col="4" lig="3"/>
+    <piece id="9" len="2" dir="V" col="5" lig="0"/>
+    <piece id="10" len="2" dir="V" col="5" lig="4"/>
+  </puzzle>
+  <puzzle name="pb17" monde="3">
+    <!-- Fait par Sarah Tardiveau -->
+    <piece id="0" len="2" dir="H" col="1" lig="2"/>
+    <piece id="1" len="3" dir="V" col="0" lig="0"/>
+    <piece id="2" len="3" dir="V" col="0" lig="3"/>
+    <piece id="3" len="2" dir="V" col="1" lig="0"/>
+    <piece id="4" len="3" dir="H" col="1" lig="3"/>
+    <piece id="5" len="2" dir="V" col="1" lig="4"/>
+    <piece id="6" len="3" dir="H" col="2" lig="0"/>
+    <piece id="7" len="2" dir="V" col="2" lig="4"/>
+    <piece id="8" len="2" dir="H" col="3" lig="1"/>
+    <piece id="9" len="2" dir="H" col="3" lig="4"/>
+    <piece id="10" len="2" dir="H" col="3" lig="5"/>
+    <piece id="11" len="2" dir="V" col="4" lig="2"/>
+    <piece id="12" len="2" dir="V" col="5" lig="0"/>
+    <piece id="13" len="3" dir="V" col="5" lig="2"/>
+  </puzzle>
+  <puzzle name="pb18" monde="3">
+    <!-- Fait par Isabelle Bizzozzéro -->
+    <piece id="0" len="2" dir="H" col="2" lig="2"/>
+    <piece id="1" len="2" dir="V" col="0" lig="4"/>
+    <piece id="2" len="3" dir="V" col="1" lig="0"/>
+    <piece id="3" len="2" dir="V" col="2" lig="0"/>
+    <piece id="4" len="2" dir="V" col="3" lig="0"/>
+    <piece id="5" len="3" dir="V" col="3" lig="3"/>
+    <piece id="6" len="3" dir="V" col="4" lig="3"/>
+    <piece id="7" len="3" dir="V" col="5" lig="3"/>
+    <piece id="8" len="2" dir="H" col="4" lig="0"/>
+    <piece id="9" len="2" dir="V" col="4" lig="1"/>
+    <piece id="10" len="2" dir="V" col="5" lig="1"/>
+  </puzzle>
+  <puzzle name="pb19" monde="3">
+    <!-- Fait par Juliette Millet -->
+    <piece id="0" len="2" dir="H" col="1" lig="2"/>
+    <piece id="1" len="3" dir="V" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="3"/>
+    <piece id="3" len="3" dir="H" col="2" lig="0"/>
+    <piece id="4" len="2" dir="V" col="3" lig="1"/>
+    <piece id="5" len="2" dir="V" col="3" lig="3"/>
+    <piece id="6" len="2" dir="H" col="3" lig="5"/>
+    <piece id="7" len="3" dir="V" col="5" lig="0"/>
+    <piece id="8" len="2" dir="H" col="4" lig="3"/>
+  </puzzle>
+  <puzzle name="pb20" monde="3">
+    <!-- Fait par Juliette Millet -->
+    <piece id="0" len="2" dir="H" col="1" lig="2"/>
+    <piece id="1" len="2" dir="H" col="0" lig="3"/>
+    <piece id="2" len="3" dir="V" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="1" lig="4"/>
+    <piece id="4" len="3" dir="H" col="2" lig="0"/>
+    <piece id="5" len="2" dir="V" col="3" lig="1"/>
+    <piece id="6" len="2" dir="V" col="3" lig="4"/>
+    <piece id="7" len="3" dir="V" col="4" lig="1"/>
+    <piece id="8" len="2" dir="H" col="4" lig="5"/>
+    <piece id="9" len="2" dir="V" col="5" lig="0"/>
+    <piece id="10" len="2" dir="V" col="5" lig="3"/>
+  </puzzle>
+  <puzzle name="pb21" monde="3">
+    <!-- Fait par Thibault Maheu -->
+    <piece id="0" len="2" dir="H" col="1" lig="2"/>
+    <piece id="1" len="2" dir="V" col="0" lig="1"/>
+    <piece id="2" len="2" dir="V" col="2" lig="3"/>
+    <piece id="3" len="2" dir="H" col="2" lig="5"/>
+    <piece id="4" len="2" dir="V" col="3" lig="0"/>
+    <piece id="5" len="3" dir="H" col="3" lig="4"/>
+    <piece id="6" len="2" dir="H" col="4" lig="5"/>
+    <piece id="7" len="3" dir="V" col="5" lig="0"/>
+    <piece id="8" len="2" dir="V" col="3" lig="2"/>
+  </puzzle>
+  <puzzle name="pb22" monde="3">
+    <!-- Fait par Thibault Maheu -->
+    <piece id="0" len="2" dir="H" col="0" lig="2"/>
+    <piece id="1" len="2" dir="H" col="0" lig="4"/>
+    <piece id="2" len="3" dir="V" col="2" lig="0"/>
+    <piece id="3" len="2" dir="H" col="2" lig="5"/>
+    <piece id="4" len="2" dir="H" col="3" lig="4"/>
+    <piece id="5" len="2" dir="H" col="4" lig="0"/>
+    <piece id="6" len="2" dir="H" col="4" lig="1"/>
+    <piece id="7" len="2" dir="V" col="5" lig="2"/>
+    <piece id="8" len="2" dir="H" col="4" lig="5"/>
+  </puzzle>
+  <puzzle name="pb23" monde="3">
+    <!-- Fait par Chloé Lavoué -->
+    <piece id="0" len="2" dir="H" col="1" lig="2"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="3" dir="V" col="0" lig="1"/>
+    <piece id="3" len="2" dir="V" col="2" lig="0"/>
+    <piece id="4" len="3" dir="V" col="3" lig="0"/>
+    <piece id="5" len="3" dir="H" col="2" lig="4"/>
+    <piece id="6" len="3" dir="H" col="3" lig="5"/>
+    <piece id="7" len="2" dir="H" col="4" lig="1"/>
+    <piece id="8" len="2" dir="V" col="4" lig="2"/>
+    <piece id="9" len="3" dir="V" col="5" lig="2"/>
+  </puzzle>
+  <puzzle name="pb24" monde="3">
+    <!-- Fait par Emeline Faure -->
+    <piece id="0" len="2" dir="H" col="0" lig="2"/>
+    <piece id="1" len="3" dir="V" col="2" lig="0"/>
+    <piece id="2" len="2" dir="H" col="1" lig="5"/>
+    <piece id="3" len="2" dir="H" col="2" lig="4"/>
+    <piece id="4" len="2" dir="V" col="3" lig="1"/>
+    <piece id="5" len="2" dir="V" col="4" lig="2"/>
+    <piece id="6" len="2" dir="H" col="4" lig="5"/>
+    <piece id="7" len="3" dir="V" col="5" lig="1"/>
+  </puzzle>
+  <puzzle name="pb25" monde="4">
+    <!-- Fait par Meghann Aubert et Zeid Belabbas -->
+    <piece id="0" len="3" dir="H" col="0" lig="2"/>
+    <piece id="1" len="3" dir="H" col="0" lig="1"/>
+    <piece id="2" len="3" dir="V" col="3" lig="0"/>
+    <piece id="3" len="2" dir="H" col="2" lig="4"/>
+    <piece id="4" len="2" dir="H" col="4" lig="3"/>
+    <piece id="5" len="2" dir="V" col="4" lig="4"/>
+    <piece id="6" len="3" dir="V" col="5" lig="0"/>
+  </puzzle>
+  <puzzle name="pb26" monde="4">
+    <!-- Fait par Meghann Aubert et Zeid Belabbas -->
+    <piece id="0" len="3" dir="H" col="1" lig="2"/>
+    <piece id="1" len="3" dir="V" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="3"/>
+    <piece id="3" len="2" dir="H" col="1" lig="0"/>
+    <piece id="4" len="2" dir="H" col="1" lig="4"/>
+    <piece id="5" len="3" dir="V" col="3" lig="3"/>
+    <piece id="6" len="3" dir="V" col="5" lig="0"/>
+    <piece id="7" len="2" dir="H" col="4" lig="5"/>
+  </puzzle>
+  <puzzle name="pb27" monde="4">
+    <!-- Fait par Djelloul Amina -->
+    <piece id="0" len="2" dir="H" col="0" lig="2"/>
+    <piece id="1" len="2" dir="V" col="0" lig="0"/>
+    <piece id="2" len="3" dir="H" col="0" lig="3"/>
+    <piece id="3" len="2" dir="H" col="2" lig="0"/>
+    <piece id="4" len="2" dir="V" col="2" lig="4"/>
+    <piece id="5" len="3" dir="V" col="3" lig="2"/>
+    <piece id="6" len="3" dir="H" col="3" lig="5"/>
+    <piece id="7" len="3" dir="V" col="4" lig="0"/>
+    <piece id="8" len="3" dir="V" col="5" lig="0"/>
+  </puzzle>
+  <puzzle name="pb28" monde="4">
+    <!-- Fait par Meghann Aubert et Zeid Belabbas -->
+    <piece id="0" len="2" dir="H" col="3" lig="2"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="3" dir="V" col="0" lig="2"/>
+    <piece id="3" len="2" dir="H" col="0" lig="5"/>
+    <piece id="4" len="3" dir="V" col="2" lig="3"/>
+    <piece id="5" len="3" dir="H" col="3" lig="3"/>
+    <piece id="6" len="3" dir="V" col="5" lig="0"/>
+  </puzzle>
+  <puzzle name="pb29" monde="4">
+    <!-- Fait par Meghann Aubert et Zeid Belabbas -->
+    <piece id="0" len="2" dir="H" col="1" lig="2"/>
+    <piece id="1" len="3" dir="V" col="0" lig="0"/>
+    <piece id="2" len="3" dir="H" col="0" lig="3"/>
+    <piece id="3" len="3" dir="H" col="3" lig="0"/>
+    <piece id="4" len="3" dir="V" col="4" lig="1"/>
+    <piece id="5" len="2" dir="V" col="5" lig="2"/>
+    <piece id="6" len="2" dir="V" col="5" lig="4"/>
+    <piece id="7" len="2" dir="H" col="3" lig="5"/>
+  </puzzle>
+  <puzzle name="pb30" monde="4">
+    <!-- Fait par Meghann Aubert et Zeid Belabbas -->
+    <piece id="0" len="2" dir="H" col="0" lig="2"/>
+    <piece id="1" len="3" dir="V" col="0" lig="3"/>
+    <piece id="2" len="3" dir="H" col="1" lig="5"/>
+    <piece id="3" len="2" dir="H" col="2" lig="0"/>
+    <piece id="4" len="2" dir="V" col="2" lig="1"/>
+    <piece id="5" len="2" dir="V" col="3" lig="3"/>
+    <piece id="6" len="2" dir="H" col="4" lig="3"/>
+    <piece id="7" len="3" dir="V" col="5" lig="0"/>
+  </puzzle>
+  <puzzle name="pb31" monde="4">
+    <!-- Fait par Jeremy Bizzozzero -->
+    <piece id="0" len="2" dir="H" col="1" lig="2"/>
+    <piece id="1" len="2" dir="V" col="0" lig="1"/>
+    <piece id="2" len="2" dir="H" col="1" lig="1"/>
+    <piece id="3" len="2" dir="H" col="0" lig="3"/>
+    <piece id="4" len="2" dir="V" col="0" lig="4"/>
+    <piece id="5" len="2" dir="V" col="2" lig="4"/>
+    <piece id="6" len="2" dir="V" col="3" lig="0"/>
+    <piece id="7" len="3" dir="V" col="5" lig="0"/>
+    <piece id="8" len="3" dir="H" col="3" lig="4"/>
+    <piece id="9" len="2" dir="H" col="4" lig="5"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb32" monde="4">
+    <!-- Fait par Demir Renaux -->
+    <piece id="0" len="2" dir="H" col="3" lig="2"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="3" dir="H" col="0" lig="5"/>
+    <piece id="3" len="2" dir="V" col="1" lig="1"/>
+    <piece id="4" len="2" dir="V" col="1" lig="3"/>
+    <piece id="5" len="3" dir="V" col="2" lig="1"/>
+    <piece id="6" len="2" dir="H" col="2" lig="4"/>
+    <piece id="7" len="2" dir="H" col="3" lig="0"/>
+    <piece id="8" len="3" dir="V" col="5" lig="0"/>
+    <piece id="9" len="2" dir="H" col="4" lig="3"/>
+    <piece id="10" len="2" dir="H" col="4" lig="4"/>
+    <piece id="11" len="2" dir="H" col="4" lig="5"/>
+  </puzzle>
+  <puzzle name="pb33" monde="5">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb34" monde="5">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb35" monde="5">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb36" monde="5">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb37" monde="5">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb38" monde="5">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb39" monde="5">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb40" monde="5">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb41" monde="6">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb42" monde="6">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb43" monde="6">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb44" monde="6">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb45" monde="6">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb46" monde="6">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb47" monde="6">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb48" monde="6">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb49" monde="7">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb50" monde="7">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb51" monde="7">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb52" monde="7">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb53" monde="7">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb54" monde="7">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb55" monde="7">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb56" monde="7">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb57" monde="8">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb58" monde="8">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb59" monde="8">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb60" monde="8">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb61" monde="8">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb62" monde="8">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb63" monde="8">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+  <puzzle name="pb64" monde="8">
+    <piece id="0" len="2" dir="H" col="0" lig="0"/>
+    <piece id="1" len="2" dir="H" col="0" lig="0"/>
+    <piece id="2" len="2" dir="H" col="0" lig="0"/>
+    <piece id="3" len="2" dir="H" col="0" lig="0"/>
+    <piece id="4" len="2" dir="H" col="0" lig="0"/>
+    <piece id="5" len="2" dir="H" col="0" lig="0"/>
+    <piece id="6" len="2" dir="H" col="0" lig="0"/>
+    <piece id="7" len="2" dir="H" col="0" lig="0"/>
+    <piece id="8" len="2" dir="H" col="0" lig="0"/>
+    <piece id="9" len="2" dir="H" col="0" lig="0"/>
+    <piece id="10" len="2" dir="H" col="0" lig="0"/>
+    <piece id="11" len="2" dir="H" col="0" lig="0"/>
+  </puzzle>
+</rushpuzzles>

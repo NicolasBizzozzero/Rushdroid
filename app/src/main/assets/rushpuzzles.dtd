@@ -1,0 +1,13 @@
+<!DOCTYPE rushpuzzles [
+
+<!ELEMENT rushpuzzles (puzzle)>
+<!ELEMENT puzzle (piece)>
+    <!ATTLIST puzzle name CDATA #REQUIRED>
+    <!ATTLIST puzzle monde CDATA #REQUIRED>
+<!ELEMENT piece EMPTY>
+    <!ATTLIST piece id ID #REQUIRED>
+    <!ATTLIST piece len (2|3) #REQUIRED>
+    <!ATTLIST piece dir (H|V) #REQUIRED>
+    <!ATTLIST piece col CDATA #REQUIRED>
+    <!ATTLIST piece lig CDATA #REQUIRED>
+]>

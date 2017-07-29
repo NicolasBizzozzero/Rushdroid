@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    tools:context="bizzo0_munro.rushdroid.MenuPrincipal"
+    android:id="@+id/layoutCouvrantToutLecran">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/titreMenuPrincipal"
+            android:id="@+id/titreMenuPrincipal"
+            android:textSize="50sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:fontFamily="Cambria Math"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout2">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boutonJouer"
+            android:id="@+id/boutonJouer"
+            android:width="200dp"
+            android:fontFamily="Cambria Math"
+            android:focusable="false"
+            android:enabled="true"
+            android:focusableInTouchMode="false"
+            android:layout_marginBottom="10dp"
+            android:onClick="onClickGoToSelectionDesNiveaux"
+            android:clickable="true"
+            android:elegantTextHeight="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boutonStatistics"
+            android:id="@+id/boutonStatistiques"
+            android:width="200dp"
+            android:onClick="onClickGoToStatistiques"
+            android:fontFamily="Cambria Math"
+            android:focusable="false"
+            android:enabled="true"
+            android:focusableInTouchMode="false"
+            android:layout_marginBottom="10dp"
+            android:clickable="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/boutonOptions"
+            android:onClick="onClickGoToOptions"
+            android:allowUndo="true"
+            android:fontFamily="Cambria Math"
+            android:width="100dp"
+            android:text="@string/boutonOptions"
+            android:focusable="false"
+            android:enabled="true"
+            android:focusableInTouchMode="false"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boutonQuitter"
+            android:id="@+id/boutonQuitter"
+            android:width="200dp"
+            android:onClick="onClickExit"
+            android:fontFamily="Cambria Math"
+            android:focusable="false"
+            android:enabled="true"
+            android:focusableInTouchMode="false"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/boutonachievements"
+            android:background="@color/transparent">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/frameLayout4"
+                android:background="@color/transparent">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButtonSucces"
+                    android:src="@drawable/icone_succes_light"
+                    android:cropToPadding="false"
+                    android:adjustViewBounds="true"
+                    android:clickable="true"
+                    android:onClick="onClickGoToSucces"
+                    android:contentDescription="@string/imageAchievements"
+                    android:background="@color/transparent" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/boutonSucces"
+                android:id="@+id/textView15"
+                android:fontFamily="Cambria Math"
+                android:background="@color/transparent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/boutonscores"
+            android:background="@color/transparent">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/frameLayout3"
+                android:background="@color/transparent">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButtonScores"
+                    android:src="@drawable/icone_scores_light"
+                    android:cropToPadding="false"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="true"
+                    android:onClick="onClickGoToMeilleursScores"
+                    android:contentDescription="@string/imageScores"
+                    android:background="@color/transparent" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/boutonScores"
+                android:id="@+id/textView14"
+                android:fontFamily="Cambria Math"
+                android:background="@color/transparent" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/copyrightTextLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=
+                "@string/texteCopyright"
+            android:id="@+id/textView5"
+            android:textStyle="italic"
+            android:singleLine="false"
+            android:editable="false"
+            android:enabled="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:fontFamily="Cambria Math"
+            android:gravity="bottom|center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

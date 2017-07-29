@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Google Play game services IDs -->
+<resources>
+    <string name="app_id" translatable="false">727394501555</string>
+    <string name="package_name" translatable="false">bizzo0_munro.rushdroid</string>
+    <string name="achievement_world_1_finished" translatable="false">CgkIs4fd4JUVEAIQAA</string>
+    <string name="achievement_world_3_finished" translatable="false">CgkIs4fd4JUVEAIQAg</string>
+    <string name="achievement_world_5_finished" translatable="false">CgkIs4fd4JUVEAIQAQ</string>
+    <string name="achievement_world_7_finished" translatable="false">CgkIs4fd4JUVEAIQAw</string>
+    <string name="achievement_game_finished" translatable="false">CgkIs4fd4JUVEAIQBA</string>
+    <string name="achievement_1000_strokes" translatable="false">CgkIs4fd4JUVEAIQBQ</string>
+    <string name="achievement_you_played_1_hour" translatable="false">CgkIs4fd4JUVEAIQBg</string>
+    <string name="leaderboard_total_timerecords" translatable="false">CgkIs4fd4JUVEAIQBw</string>
+    <string name="leaderboard_total_strokesrecords" translatable="false">CgkIs4fd4JUVEAIQCA</string>
+</resources>

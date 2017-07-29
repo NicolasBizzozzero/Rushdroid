@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Pause"
+                android:id="@+id/textView4"
+                android:layout_gravity="center"
+
+                android:fontFamily="Cambria Math"
+                android:textSize="36sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/go_back_to_the_game"
+                android:id="@+id/button5"
+
+                android:width="250dp"
+
+                android:onClick="onClickRetourAuJeu"
+                android:fontFamily="Cambria Math"
+                android:focusable="false"
+                android:enabled="true"
+                android:focusableInTouchMode="false"
+                android:clickable="true"
+                android:layout_gravity="center_horizontal"/>
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/musicdp"
+                android:id="@+id/textView86"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/sound_effectsdp"
+                android:id="@+id/textView87"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/vibrationsdp"
+                android:id="@+id/textView88"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:enabled="true"
+                    android:background="@color/transparent"
+                    android:buttonTint="@color/gris"
+                    android:checked="false"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_gravity="center"
+                    android:id="@+id/checkBoxMusique" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBoxEffetsSonores"
+                    android:clickable="true"
+                    android:enabled="true"
+                    android:background="@color/transparent"
+                    android:buttonTint="@color/gris"
+                    android:checked="false"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBoxVibrations"
+                    android:clickable="true"
+                    android:enabled="true"
+                    android:background="@color/transparent"
+                    android:buttonTint="@color/gris"
+                    android:checked="false"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

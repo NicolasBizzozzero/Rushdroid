@@ -1,0 +1,1479 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            tools:context=".SelectionDesNiveaux"
+            android:scrollbarStyle="outsideOverlay">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/texteChoixDuNiveau"
+                android:id="@+id/textView19"
+                android:textSize="35sp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="Cambria Math"
+                android:layout_marginTop="30dp"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutConteneurBoutons">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:gravity="center_horizontal"
+                android:id="@+id/layoutMonde1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau1"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau1"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau5"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau5"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau2"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau2"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau6"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau6"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau3"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau3"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau7"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau7"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau4"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau4"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau8"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau8"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:gravity="center_horizontal"
+                android:id="@+id/layoutMonde2">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau9"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau9"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau13"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau13"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau10"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau10"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau14"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau14"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau11"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau11"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau15"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau15"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau12"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau12"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau16"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau16"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="40dp"
+                android:baselineAligned="false"
+                android:gravity="center_horizontal"
+                android:id="@+id/layoutMonde3">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau17"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau17"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau21"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau21"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau18"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau18"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau22"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau22"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau19"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau19"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau23"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau23"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau20"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau20"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau24"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau24"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:gravity="center_horizontal"
+                android:id="@+id/layoutMonde4">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau25"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau25"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau29"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau29"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau26"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau26"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau30"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau30"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau27"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau27"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau31"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau31"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau28"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau28"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau32"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau32"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:gravity="center_horizontal"
+                android:id="@+id/layoutMonde5">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau33"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau33"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau37"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau37"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau34"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau34"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau38"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau38"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau35"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau35"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau39"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"
+                        android:id="@+id/boutonNiveau39" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau36"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau36"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau40"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau40"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:gravity="center_horizontal"
+                android:id="@+id/layoutMonde6">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau41"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau41"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau45"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau45"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau42"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau42"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau46"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau46"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau43"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau43"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau47"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau47"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau44"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau44"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau48"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau48"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:gravity="center_horizontal"
+                android:id="@+id/layoutMonde7">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau49"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau49"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau53"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau53"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau50"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau50"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau54"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau54"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau51"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau51"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau55"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau55"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau52"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau52"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau56"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau56"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="false"
+                android:gravity="center_horizontal"
+                android:id="@+id/layoutMonde8">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau57"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau57"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau61"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau61"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau58"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau58"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau62"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau62"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau59"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau59"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau63"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau63"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau60"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/boutonNiveau60"
+                        android:layout_marginTop="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/boutonNiveau64"
+                        android:fontFamily="Cambria Math"
+                        android:focusable="false"
+                        android:enabled="true"
+                        android:focusableInTouchMode="false"
+                        android:onClick="onClickGoToNiveau"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:id="@+id/boutonNiveau64"
+                        android:layout_marginBottom="10dp"
+                        android:maxWidth="80dp"
+                        android:minWidth="70dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

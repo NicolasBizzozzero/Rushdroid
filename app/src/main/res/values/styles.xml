@@ -1,0 +1,155 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ####################################################################################### -->
+    <!-- DEFINITION DES ELEMENTS DU THEME LIGHT DE L'APPLICATION -->
+    <!-- Activité du menu principal -->
+    <style name="ThemeDeLApplicationEtDesActivites" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/blanc</item>
+        <item name="colorPrimaryDark">@color/noir</item>
+        <item name="colorAccent">@color/blanclegerementfonce</item>
+        <item name="android:background">@color/blanc</item>
+        <item name="android:colorBackground">@color/blanc</item>
+        <item name="android:buttonStyle">@style/MonBouton</item>
+        <item name="buttonStyle">@style/MonBouton</item>
+        <item name="android:imageButtonStyle">@style/MonImageBouton</item>
+        <item name="imageButtonStyle">@style/MonImageBouton</item>
+        <item name="android:textAppearance">@style/MonApparenceDeTexte</item>
+        <item name="android:textViewStyle">@style/MonApparenceDeTextView</item>
+        <item name="android:textColorPrimary">@color/gris</item>
+        <item name="android:checkboxStyle">@style/MaCheckBox</item>
+        <item name="checkboxStyle">@style/MaCheckBox</item>
+        <item name="android:alertDialogStyle">@style/MonAlertDialog</item>
+        <item name="android:alertDialogTheme">@style/MonAlertDialog</item>
+    </style>
+
+    <!-- Activité de selection du niveau-->
+    <style name="ThemeDeLApplicationEtDesActivites.SelectionDuNiveau">
+        <item name="android:buttonStyle">@style/MonBouton.SelectionDuNiveau</item>
+        <item name="buttonStyle">@style/MonBouton.SelectionDuNiveau</item>
+    </style>
+
+    <!-- Le thème qui sera appliqué à tous les textes -->
+    <style name="MonApparenceDeTexte" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/gris</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <!-- Le thème qui sera appliqué à tous les TextViews -->
+    <style name="MonApparenceDeTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/gris</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- Le thème qui sera appliqué à tous les boutons -->
+    <style name="MonBouton" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/gris</item>
+        <item name="android:background">@drawable/bouton_light</item>
+        <item name="android:colorAccent" tools:targetApi="lollipop">@color/gris</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:height">55sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">Cambria Math</item>
+    </style>
+
+    <!-- Le thème qui sera appliqué à tous les boutons de l'activité de selection des niveaux -->
+    <style name="MonBouton.SelectionDuNiveau">
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <!-- Le thème qui sera appliqué à tous les images boutons -->
+    <style name="MonImageBouton" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/bouton_light</item>
+    </style>
+
+    <!-- Le thème qui sera appliqué à toutes les CheckBox -->
+    <style name="MaCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_light</item>
+    </style>
+
+    <!-- Le thème qui sera appliqué à toutes les AlertDialog-->
+    <style name="MonAlertDialog" parent="@android:style/Holo.Light.ButtonBar.AlertDialog">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">5px</item>
+        <item name="android:layout_marginRight">5px</item>
+        <item name="android:divider">@drawable/divider_transparent</item>
+    </style>
+
+    <!-- ####################################################################################### -->
+    <!-- DEFINITION DES ELEMENTS DU THEME DARK DE L'APPLICATION -->
+    <!-- Activité du menu principal -->
+    <style name="ThemeDeLApplicationEtDesActivites.DARK" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/noir</item>
+        <item name="colorPrimaryDark">@color/blanc</item>
+        <item name="colorAccent">@color/noirlegerementclair</item>
+        <item name="android:background">@color/noir</item>
+        <item name="android:colorBackground">@color/noir</item>
+        <item name="android:buttonStyle">@style/MonBouton.DARK</item>
+        <item name="buttonStyle">@style/MonBouton.DARK</item>
+        <item name="android:imageButtonStyle">@style/MonImageBouton.DARK</item>
+        <item name="imageButtonStyle">@style/MonImageBouton.DARK</item>
+        <item name="android:textAppearance">@style/MonApparenceDeTexte.DARK</item>
+        <item name="android:textViewStyle">@style/MonApparenceDeTextView.DARK</item>
+        <item name="android:textColorPrimary">@color/sirg</item>
+        <item name="android:checkboxStyle">@style/MaCheckBox.DARK</item>
+        <item name="checkboxStyle">@style/MaCheckBox.DARK</item>
+        <item name="android:alertDialogStyle">@style/MonAlertDialog.DARK</item>
+        <item name="android:alertDialogTheme">@style/MonAlertDialog.DARK</item>
+    </style>
+
+    <!-- Activité de selection du niveau-->
+    <style name="ThemeDeLApplicationEtDesActivites.DARK.SelectionDuNiveau">
+        <item name="android:buttonStyle">@style/MonBouton.DARK.SelectionDuNiveau</item>
+        <item name="buttonStyle">@style/MonBouton.DARK.SelectionDuNiveau</item>
+    </style>
+
+    <!-- Le thème qui sera appliqué à tous les textes -->
+    <style name="MonApparenceDeTexte.DARK" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/sirg</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <!-- Le thème qui sera appliqué à tous les TextViews -->
+    <style name="MonApparenceDeTextView.DARK" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/sirg</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- Le thème qui sera appliqué à tous les boutons -->
+    <style name="MonBouton.DARK" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/sirg</item>
+        <item name="android:background">@drawable/bouton_dark</item>
+        <item name="android:colorAccent" tools:targetApi="lollipop">@color/sirg</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:height">55sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">Cambria Math</item>
+    </style>
+
+    <!-- Le thème qui sera appliqué à tous les boutons de l'activité de selection des niveaux -->
+    <style name="MonBouton.DARK.SelectionDuNiveau">
+        <item name="android:textSize">17sp</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <!-- Le thème qui sera appliqué à tous les images boutons -->
+    <style name="MonImageBouton.DARK" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/bouton_dark</item>
+    </style>
+
+    <!-- Le thème qui sera appliqué à toutes les CheckBox -->
+    <style name="MaCheckBox.DARK" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_dark</item>
+    </style>
+
+    <!-- Le thème qui sera appliqué à toutes les AlertDialog-->
+    <style name="MonAlertDialog.DARK" parent="@android:style/Holo.Light.ButtonBar.AlertDialog">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">5px</item>
+        <item name="android:layout_marginRight">5px</item>
+        <item name="android:divider">@drawable/divider_transparent</item>
+    </style>
+</resources>
